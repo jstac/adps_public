@@ -5,8 +5,8 @@ Optimal policy plot
 """
 
 include("ez_model.jl")
-include("dp_code.jl")
-include("plot_functions.jl")
+include("ez_dp_code.jl")
+include("ez_plot_functions.jl")
 
 
 model = create_ez_model()

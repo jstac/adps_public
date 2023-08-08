@@ -35,7 +35,7 @@ of B_σ and
 
 """
 
-using QuantEcon, Distributions, LinearAlgebra, IterTools, StaticArrays
+using QuantEcon, Distributions, LinearAlgebra, IterTools
 
 function create_ez_model(;  ψ=1.97, 
                             β=0.96, 
